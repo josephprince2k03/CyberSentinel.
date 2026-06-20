@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Kali Linux / Hacker Theme */
+    --background: 0 0% 0%;
+    /* Pure Black */
+    --foreground: 120 20% 97%;
+    /* Slight Green Tint White */
+
+    --card: 120 4% 5%;
+    /* Very Dark Green/Grey */
+    --card-foreground: 120 20% 97%;
+
+    --popover: 120 4% 5%;
+    --popover-foreground: 120 20% 97%;
+
+    --primary: 130 100% 50%;
+    /* Neon Green */
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 130 30% 10%;
+    /* Dark Green background */
+    --secondary-foreground: 130 100% 50%;
+
+    --muted: 120 4% 15%;
+    --muted-foreground: 120 10% 60%;
+
+    --accent: 130 100% 50%;
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 130 50% 15%;
+    /* Greenish Border */
+    --input: 130 30% 10%;
+    --ring: 130 100% 50%;
+    --radius: 0.3rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.glass-panel {
+  background: rgba(13, 17, 23, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.bg-grid-pattern {
+  background-image: linear-gradient(to right, #1f2937 1px, transparent 1px), linear-gradient(to bottom, #1f2937 1px, transparent 1px);
+  background-size: 20px 20px;
+  mask-image: radial-gradient(circle, black, transparent 80%);
+}

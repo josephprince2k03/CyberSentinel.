@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-whois
+dnspython
+pydantic
+requests
+phonenumbers
+duckduckgo-search
+beautifulsoup4
