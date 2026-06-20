@@ -201,7 +201,7 @@ Users must comply with all applicable laws and regulations. Unauthorized investi
 
 ## 👩‍💻 Developed By
 
-Joseph prince
+Cyber Joseph 
 
 Cybersecurity & OSINT Research Project
 
